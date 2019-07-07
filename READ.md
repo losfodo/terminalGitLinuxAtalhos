@@ -1,5 +1,5 @@
 # codando
-atalhos de programação e  comandos git
+atalhos de programação e  comandos git e linux
 
 <!DOCTYPE html>
 <html lang="en">
