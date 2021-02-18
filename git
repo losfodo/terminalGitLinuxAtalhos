@@ -1,117 +1,3 @@
-<!DOCTYPE html>     <!--linha 75 atalhos p codar-->
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-
-	<h3 style="color: blue;">atalhos teclado para navegador</h3>
-<h3>Abas</h3>
-<p>Ctrl+1-8: Troca de abas, conforme a ordem que elas estão abertas;</br>
-
-Ctrl+W ou Ctrl+F4: Feche a aba atual;</br>
-
-Ctrl+Shift+T: Reabrir a última aba que foi fechada;</br>
-
-Ctrl+T: Abrir uma nova aba;</br>
-
-Ctrl+N: Abrir uma nova janela.</br></p>
-
-<h3>Navegação</h3>
-<p>Alt+esquerda, Backspace: Voltar uma janela;</br>
-
-Alt+direita, Shift+Backspace: Avançar uma janela;</br>
-
-F5: Atualizar a página;</br>
-
-Ctrl+F5: Atualiza a página e o cache do site;</br>
-
-ESC: Para de carregar;</br>
-
-Alt+Home: Abrir a página inicial.</br></p>
-
-<h3>Visualização</h3>
-<p>Espaço ou Page Down: Descer a uma janela;</br>
-
-Shift+Espaço ou Page Up: Subir uma janela;</br>
-
-Home: Vai para o topo da página;</br>
-
-End: Vai para o final da página.</br></p>
-
-<h3>Barra de Endereços</h3>
-<p>Ctrl+L ou Alt+D ou F6: Editar a barra de endereços;</br>
-
-Ctrl+Enter: Caso você digite apenas uma palavra na barra de endereços (“Google”, por exemplo), o atalho inclui WWW. e “.com” no começo e final do termo;</br>
-
-Alt+Enter: Abre o endereço digitado na barra de endereços em uma nova aba.</br></p>
-
-<h3>Histórico e Favoritos</h3>
-<p>Ctrl+H: Abre o histórico do navegador;</br>
-
-Ctrl+J: Abre janela de downloads;</br>
-
-Ctrl+D: Favorita o site atual;</br>
-
-Ctrl+Shift+Del: Abre a janela de limpeza de histórico do navegador.</br></p>
-
-<h3>Funções variadas</h3>
-<p>Ctrl+P: Imprime a página atual;</br>
-
-Ctrl+U: Abre o código-fonte da página (não funciona no Internet Explorer);</br>
-
-ALT+F4: Fechar navegador</br>
-
-WINDOWS + L:o computador é bloqueado de forma automática, sendo necessário digitar a senha novamente para abrir o Windows.</br></p>
-
-windows + R: aparece cmd para ir para prompt de comando
-
-<p>insert     : ao clicar para digitar ele preenche no lugar do q esta escrito, 'insert' denovo volta ao normal</p>
-
-<p>comand + D:varias vezes seguidas até final e dar ctrl c + ctrl v: cola algo repitido q deve ser colocado em varias linhas</p>
-<!--------------------------------------->
-
-<h3 style="color: blue;">atalhos teclado para codar</h3>
-<p>alt+cima e baixo:mudar uma linha de codigo de posição intacta</p>
-
-<p>ctrl+S: salva a programação</p>
-
-<p>! enter    : criou um arquivo novo vazio com ! enter cria inicial de html no vscode</p>
-
-<p>CTRL + C CTRL + V: copiar e colar</p>
-
-<p>CTRL + X: serve para retornar ao passo anterior se vc digitou muita coisa errada, como se fosse uma tecla de arrependimento do que digitou.</p>
-<p>CTRL + Z: serve para recuperar uma digitação perdida por um ctrl + X feito sem querer ou apagado letra sem querer, como se fosse uma tecla de recuperar</p>
-
-<p>CTRL+ seta pro lado: pula lado pro lado palavra por palavra</p>
-<p>Home: Vai para o começo da linha da página; *** End: Vai para o final da linha página.</p>
-<p>Page Down: Descer a uma janela de codigo; Page Up: Subir uma janela;</p>
-<p>CTRL+backspace:apaga palavra por palavra</p>
-
-<p>ctrl + ; : seleciona coloca em barra para comentarios vscode ou tira em comentarios de linha o codigo</p>
-<p>ctrl + shift + ; : deixa em comentario varios blocos selecionados vs code</p>
-<p>ctrl + shift + L:seleciona e digita em todos os lugares com mesmo nome q quer mudar iguais ou 'ctrl + d'= </p>
-
-<p>CTRL + F:um campo de busca se abre e é possível procurar por palavras-chave em determinada página ou programa.</p>
-<p>ctrl + p     : para pesquisar algo no vs code no caso arquivos***ctrl shift p:pesquisar algo vs code geral</p>
-
-<p>Ctrl+1-8: Troca de abas, conforme a ordem que elas estão abertas;</p>
-<p>CTRL+TAB:troca de janela de programação arquivo, alternando apenas duas ultimas entradas, e seta cima e baixo escolhe outra</p>
-
-<p>Windows  + Tab:Abrir a Visão de tarefas. / windows:abre iniciar</p>
-<p>F5: Atualizar a página</p>
-
-<p>Alt windows K: adiciona marcador em uma linha de codigo bookmark extenção code vs</p>
-
-<p>ctrl + shift + j   : abre o inspecionar console de forma automatica </p>
-
-<p>CTRL+shift seta pro lado:vai selecionar as palavras ***** CTRL + A:todo o texto será selecionado então cuidado.</p>
-<p>CTRL + D : clica na palavra e preenche uma palavra apenas como se fosse um ctrl C e ctrl V </p>
-<p>seleciona + shift + tab:para voltar linhas*****tab para avançar linhas</p>
-
-<!-------------------------------------------->
-
 <h1>github comandos</h1>
 
 <p># Github entra no arquivo com comando: vi Read.md</p>
@@ -188,16 +74,7 @@ git checkout develop
 	<p>git checkout -b "rafa-changes"   : cria uma change de trabalho git</p>
 	code .    : abrir vs code
 
-
-	<h1>comandos linux instalar github desktop</h1>
-	<p>sudo apt update    :pesquisa nas distribuiçoes servidores do linux debiam kanonik pacotes todo atualizado..</p>
-	<p>sudo apt upgrade -y    : para atualizar tudo e -y para confirmar a atualização</p>
-	<p>sudo apt install git -y    : instalar o git</p>
-	<p>git --version   : qual versão do git esta</p>
-	<p>github.com/shiftkey/desktop    : brendam foster repositorio github desktop para linux ir no readme e clicar lastest releases para baixar</p>
-
-
-	<!--github
+github
 
 	create new file no github clicando digitando nome
 para criar pastinhas digita e usar / entrar	
@@ -216,14 +93,13 @@ para criar pastinhas digita e usar / entrar
    Fork:para colocar arquivos de outra pessoa  pegas no clone e colocar no seu próprio github
    *Issues mensagem para programadores q publicam em seu repositorio remoto github
    Branches:fazendo um projeto vc faz várias branches diferentes do projeto tipo branche bacend e branche frontend pra garantir até fazer um Marge q pega essa fit back e front uni os dois e joga no ramo branche master
-   
 
-	-->
-</body>
-</html>
-github=12 - 1:52
-<!>
-<!---->
-/**/
-//
-<!util>
+   
+    <p>npm install --global yarn    : instalar o yarn na maquina </p>
+	<p>yarn version    : ver a versão do yarn</p>
+	<p>yarn : baixa as dependencias do projeto com yarn</p>
+yarn serve   : para subir o projeto para uso
+
+duvidas?
+<p>git checkout develop   : troca de branch tava na branch master vai para develop de desenvolvimento</p>
+	<p>git checkout -b "rafa-changes"   : cria uma change de trabalho git</p>

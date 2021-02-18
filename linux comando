@@ -1,0 +1,6 @@
+<h1>comandos linux instalar github desktop</h1>
+	<p>sudo apt update    :pesquisa nas distribuiçoes servidores do linux debiam kanonik pacotes todo atualizado..</p>
+	<p>sudo apt upgrade -y    : para atualizar tudo e -y para confirmar a atualização</p>
+	<p>sudo apt install git -y    : instalar o git</p>
+	<p>git --version   : qual versão do git esta</p>
+	<p>github.com/shiftkey/desktop    : brendam foster repositorio github desktop para linux ir no readme e clicar lastest releases para baixar</p>

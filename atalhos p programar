@@ -1,0 +1,41 @@
+<h3 style="color: blue;">atalhos teclado para codar</h3>
+<p>alt+cima e baixo:mudar uma linha de codigo de posição intacta</p>
+
+<p>ctrl+S: salva a programação</p>
+
+<p>! enter    : criou um arquivo novo vazio com ! enter cria inicial de html no vscode</p>
+
+<p>CTRL + C CTRL + V: copiar e colar</p>
+
+<p>CTRL + X: serve para retornar ao passo anterior se vc digitou muita coisa errada, como se fosse uma tecla de arrependimento do que digitou.</p>
+<p>CTRL + Z: serve para recuperar uma digitação perdida por um ctrl + X feito sem querer ou apagado letra sem querer, como se fosse uma tecla de recuperar</p>
+
+<p>CTRL+ seta pro lado: pula lado pro lado palavra por palavra</p>
+<p>Home: Vai para o começo da linha da página; *** End: Vai para o final da linha página.</p>
+<p>Page Down: Descer a uma janela de codigo; Page Up: Subir uma janela;</p>
+<p>CTRL+backspace:apaga palavra por palavra</p>
+
+<p>ctrl + ; : seleciona coloca em barra para comentarios vscode ou tira em comentarios de linha o codigo</p>
+<p>ctrl + shift + ; : deixa em comentario varios blocos selecionados vs code</p>
+<p>ctrl + shift + L:seleciona e digita em todos os lugares com mesmo nome q quer mudar iguais ou 'ctrl + d'= </p>
+
+<p>CTRL + F:um campo de busca se abre e é possível procurar por palavras-chave em determinada página ou programa.</p>
+<p>ctrl + p     : para pesquisar algo no vs code no caso arquivos***ctrl shift p:pesquisar algo vs code geral</p>
+
+<p>Ctrl+1-8: Troca de abas, conforme a ordem que elas estão abertas;</p>
+<p>CTRL+TAB:troca de janela de programação arquivo, alternando apenas duas ultimas entradas, e seta cima e baixo escolhe outra</p>
+
+<p>Windows  + Tab:Abrir a Visão de tarefas. / windows:abre iniciar</p>
+<p>F5: Atualizar a página</p>
+
+<p>Alt windows K: adiciona marcador em uma linha de codigo bookmark extenção code vs</p>
+
+<p>ctrl + shift + j   : abre o inspecionar console de forma automatica </p>
+
+<p>CTRL+shift seta pro lado:vai selecionar as palavras ***** CTRL + A:todo o texto será selecionado então cuidado.</p>
+<p>CTRL + D : clica na palavra e preenche uma palavra apenas como se fosse um ctrl C e ctrl V </p>
+<p>seleciona + shift + tab:para voltar linhas*****tab para avançar linhas</p>
+
+<!---->
+/**/
+//

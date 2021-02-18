@@ -1,0 +1,64 @@
+<h3 style="color: blue;">atalhos teclado para navegador</h3>
+<h3>Abas</h3>
+<p>Ctrl+1-8: Troca de abas, conforme a ordem que elas estão abertas;</br>
+
+Ctrl+W ou Ctrl+F4: Feche a aba atual;</br>
+
+Ctrl+Shift+T: Reabrir a última aba que foi fechada;</br>
+
+Ctrl+T: Abrir uma nova aba;</br>
+
+Ctrl+N: Abrir uma nova janela.</br></p>
+
+<h3>Navegação</h3>
+<p>Alt+esquerda, Backspace: Voltar uma janela;</br>
+
+Alt+direita, Shift+Backspace: Avançar uma janela;</br>
+
+F5: Atualizar a página;</br>
+
+Ctrl+F5: Atualiza a página e o cache do site;</br>
+
+ESC: Para de carregar;</br>
+
+Alt+Home: Abrir a página inicial.</br></p>
+
+<h3>Visualização</h3>
+<p>Espaço ou Page Down: Descer a uma janela;</br>
+
+Shift+Espaço ou Page Up: Subir uma janela;</br>
+
+Home: Vai para o topo da página;</br>
+
+End: Vai para o final da página.</br></p>
+
+<h3>Barra de Endereços</h3>
+<p>Ctrl+L ou Alt+D ou F6: Editar a barra de endereços;</br>
+
+Ctrl+Enter: Caso você digite apenas uma palavra na barra de endereços (“Google”, por exemplo), o atalho inclui WWW. e “.com” no começo e final do termo;</br>
+
+Alt+Enter: Abre o endereço digitado na barra de endereços em uma nova aba.</br></p>
+
+<h3>Histórico e Favoritos</h3>
+<p>Ctrl+H: Abre o histórico do navegador;</br>
+
+Ctrl+J: Abre janela de downloads;</br>
+
+Ctrl+D: Favorita o site atual;</br>
+
+Ctrl+Shift+Del: Abre a janela de limpeza de histórico do navegador.</br></p>
+
+<h3>Funções variadas</h3>
+<p>Ctrl+P: Imprime a página atual;</br>
+
+Ctrl+U: Abre o código-fonte da página (não funciona no Internet Explorer);</br>
+
+ALT+F4: Fechar navegador</br>
+
+WINDOWS + L:o computador é bloqueado de forma automática, sendo necessário digitar a senha novamente para abrir o Windows.</br></p>
+
+windows + R: aparece cmd para ir para prompt de comando
+
+<p>insert     : ao clicar para digitar ele preenche no lugar do q esta escrito, 'insert' denovo volta ao normal</p>
+
+<p>comand + D:varias vezes seguidas até final e dar ctrl c + ctrl v: cola algo repitido q deve ser colocado em varias linhas</p>

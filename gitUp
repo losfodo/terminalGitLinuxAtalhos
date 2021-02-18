@@ -1,0 +1,22 @@
+principais git
+
+git   :ver se possuo o git em minha maquina
+mkdir nome da pasta: para criar uma pasta onde vc esta no momento
+git clone projeto link url    : clone do projeto para baixar na pasta q estiver
+npm install --global yarn    : instalar o yarn na maquina
+yarn version    : ver a versão do yarn
+yarn : baixa as dependencias do projeto com yarn
+git checkout develop   : troca de branch tava na branch master vai para develop de desenvolvimento
+yarn serve   : para subir o projeto para uso
+
+ls: para ver todos os arquivos e notas.
+git status: ver como esta repositorio no momento.
+git pull: puxar arquivos do servidor github repositorio remoto para o git notebook repos. local
+git checkout -b "rafa-changes"   : cria uma change de trabalho git
+
+
+
+
+
+code .    : abrir vs code
+yarn serve   : subir o projeto
