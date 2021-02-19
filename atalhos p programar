@@ -39,3 +39,12 @@
 <!---->
 /**/
 //
+
+
+
+
+interface do usuario front : criar campos colocar views
+
+controlar requisiçoes(actions):views da aplicação back para colocar no back, rotiamentos caminho front p back ou controler
+
+regras de negocio backend

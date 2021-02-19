@@ -11,7 +11,7 @@ yarn serve   : para subir o projeto para uso
 
 ls: para ver todos os arquivos e notas.
 git status: ver como esta repositorio no momento.
-git pull: puxar arquivos do servidor github repositorio remoto para o git notebook repos. local
+git pull: puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
 git checkout -b "rafa-changes"   : cria uma change de trabalho git
 
 
