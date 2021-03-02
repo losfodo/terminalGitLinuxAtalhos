@@ -19,8 +19,9 @@
 <p>ctrl + shift + ; : deixa em comentario varios blocos selecionados vs code</p>
 <p>ctrl + shift + L:seleciona e digita em todos os lugares com mesmo nome q quer mudar iguais ou 'ctrl + d'= </p>
 
-<p>CTRL + F:um campo de busca se abre e é possível procurar por palavras-chave em determinada página ou programa.</p>
-<p>ctrl + p     : para pesquisar algo no vs code no caso arquivos***ctrl shift p:pesquisar algo vs code geral</p>
+<p>CTRL + F:um campo de busca se abre e é possível procurar por palavras-chave em determinada página web ou programa arquivo.</p>
+<p>ctrl + p     : para pesquisar algo no vs code no caso achar arquivos***ctrl shift p:pesquisar algo vs code geral</p>
+* lupa do vs code   : pequisa geral de tudo q quiser achar
 
 <p>Ctrl+1-8: Troca de abas, conforme a ordem que elas estão abertas;</p>
 <p>CTRL+TAB:troca de janela de programação arquivo, alternando apenas duas ultimas entradas, e seta cima e baixo escolhe outra</p>

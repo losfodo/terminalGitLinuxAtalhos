@@ -1,22 +1,46 @@
 principais git
 
-git   :ver se possuo o git em minha maquina
-mkdir nome da pasta: para criar uma pasta onde vc esta no momento
-git clone projeto link url    : clone do projeto para baixar na pasta q estiver
-npm install --global yarn    : instalar o yarn na maquina
-yarn version    : ver a versão do yarn
-yarn : baixa as dependencias do projeto com yarn
-git checkout develop   : troca de branch tava na branch master vai para develop de desenvolvimento
-yarn serve   : para subir o projeto para uso
-
 ls: para ver todos os arquivos e notas.
 git status: ver como esta repositorio no momento.
-git pull: puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
-git checkout -b "rafa-changes"   : cria uma change de trabalho git
 
+----------projeto iniciando---------
+git   :ver se possuo o git em minha maquina
+mkdir nome da pasta: para criar uma pasta onde vc esta no momento
+git clone projetolinkurl    : clone do projeto para baixar na pasta q estiver
+npm install --global yarn    : instalar o yarn na maquina
+yarn --version    : ver a versão do yarn
+yarn : baixa as dependencias do projeto com yarn
+yarn serve   : para subir o projeto para uso
+
+---------fazendo pull no projeto ou atualizando projeto de novo no notebook----------
+git status  : mostra q esta na ultima bransh feita
+git checkout develop   : troca de branch tava na branch master ou task(gitlab) e vai para develop de desenvolvimento para pull ser feito
+git pull    :puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
+---
+git pull origin develop:ja no develop puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
+
+
+--------fazendo commit e push no projeto ou entregando o que foi mudado p github ou gitlab-------------------
+git checkout -b "rafa-changes ou nome da task BS-368"   : cria uma branch de trabalho git nova para fazer commit
+git checkout BS-368   :  troca de branch apenas pois ja existe foi criada git checkout -b "BS-368",  se estiver em develops para BS-368 e 
+git status   : conferir se esta na task BS-368 e não na develop, On branch feita com checkout anterior
+git add .    : adicinar ao index ou git status preparando p/ github, preparando todos os arquivos para um commit
+git status   : conferir se esta na task On branch
+git commit -m "exemplo adaptando graficos para dark theme"    :faz commit adicionar com numero e revisão vista por todos com texto do que foi modificado.
+git push origin rafa-changes ou BS-368 exemplo tasks    :mandar arquivos do git repositorio local para o servidor repositorio remoto ou seja para o github ou gitlab
+
+> merge > não mandar na 
+--------fazendo pull para notebook diretamente forma pratica----------------------------------
+git pull origin develop:ja no develop puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
+
+---------fazendo pull no projeto com erro anterior----------
+git stash: volta a branch anterior na pasta do projeto ultima commit da branch se errou algo
+git checkout develop   : troca de branch tava na branch master ou task e vai para develop de desenvolvimento para pull ser feito
+git pull    :puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
 
 
 
 
 code .    : abrir vs code
 yarn serve   : subir o projeto
+npm run serve    :  
