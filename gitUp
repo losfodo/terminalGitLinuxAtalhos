@@ -22,6 +22,7 @@ git pull origin develop:ja no develop puxar arquivos do servidor github reposito
 
 --------fazendo commit e push no projeto ou entregando o que foi mudado p github ou gitlab-------------------
 git checkout -b "rafa-changes ou nome da task BS-368"   : cria uma branch de trabalho git nova para fazer commit
+
 git checkout BS-368   :  troca de branch apenas pois ja existe foi criada git checkout -b "BS-368",  se estiver em develops para BS-368 e 
 git status   : conferir se esta na task BS-368 e não na develop, On branch feita com checkout anterior
 git add .    : adicinar ao index ou git status preparando p/ github, preparando todos os arquivos para um commit
