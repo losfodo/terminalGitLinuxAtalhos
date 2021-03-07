@@ -4,11 +4,14 @@
 <p>ctrl+S: salva a programação</p>
 
 <p>! enter    : criou um arquivo novo vazio com ! enter cria inicial de html no vscode</p>
+<p>scaffold      :cria arquivo novo e digita scaffold enter gera template basico arquivo.vue</p>
 
 <p>CTRL + C CTRL + V: copiar e colar</p>
 
 <p>CTRL + X: serve para retornar ao passo anterior se vc digitou muita coisa errada, como se fosse uma tecla de arrependimento do que digitou.</p>
 <p>CTRL + Z: serve para recuperar uma digitação perdida por um ctrl + X feito sem querer ou apagado letra sem querer, como se fosse uma tecla de recuperar</p>
+
+<p>Alt + shift + f   :identação do codigo ou organizar o codigo mal feito</p>
 
 <p>CTRL+ seta pro lado: pula lado pro lado palavra por palavra</p>
 <p>Home: Vai para o começo da linha da página; *** End: Vai para o final da linha página.</p>
@@ -21,7 +24,7 @@
 
 <p>CTRL + F:um campo de busca se abre e é possível procurar por palavras-chave em determinada página web ou programa arquivo.</p>
 <p>ctrl + p     : para pesquisar algo no vs code no caso achar arquivos***ctrl shift p:pesquisar algo vs code geral</p>
-* lupa do vs code   : pequisa geral de tudo q quiser achar
+<p>lupa do vs code   : pequisa geral de tudo q quiser achar</p>
 
 <p>Ctrl+1-8: Troca de abas, conforme a ordem que elas estão abertas;</p>
 <p>CTRL+TAB:troca de janela de programação arquivo, alternando apenas duas ultimas entradas, e seta cima e baixo escolhe outra</p>
@@ -37,7 +40,9 @@
 <p>CTRL + D : clica na palavra e preenche uma palavra apenas como se fosse um ctrl C e ctrl V </p>
 <p>seleciona + shift + tab:para voltar linhas*****tab para avançar linhas</p>
 
-ctrl + t    :no browser abre mais abas
+<p>ctrl + t    :no browser abre mais abas</p>
+
+
 <!---->
 /**/
 //
@@ -50,3 +55,8 @@ interface do usuario front : criar campos colocar views
 controlar requisiçoes(actions):views da aplicação back para colocar no back, rotiamentos caminho front p back ou controler
 
 regras de negocio backend
+
+
+<h3 style="color: blue;">   </h3>
+
+<p> </p>
