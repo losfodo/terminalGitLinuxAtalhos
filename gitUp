@@ -21,13 +21,13 @@ git pull origin develop:ja no develop puxar arquivos do servidor github reposito
 
 
 --------fazendo commit e push no projeto ou entregando o que foi mudado p github ou gitlab-------------------
-git checkout -b "rafa-changes ou nome da task BS-368"   : cria uma branch de trabalho git nova para fazer commit
+git checkout -b "rafa-changes ou nome da task BS-3"   : cria uma branch de trabalho git nova para fazer commit
 git checkout BS-368   :  troca de branch apenas pois ja existe foi criada git checkout -b "BS-368",  se estiver em develops para BS-368 e 
-git status   : conferir se esta na task BS-368 e não na develop, On branch feita com checkout anterior
+git status   : conferir se esta na task BS-3 e não na develop, On branch feita com checkout anterior
 git add .    : adicinar ao index ou git status preparando p/ github, preparando todos os arquivos para um commit
 git status   : conferir se esta na task On branch
 git commit -m "exemplo adaptando graficos para dark theme"    :faz commit adicionar com numero e revisão vista por todos com texto do que foi modificado.
-git push origin rafa-changes ou BS-368 exemplo tasks    :mandar arquivos do git repositorio local para o servidor repositorio remoto ou seja para o github ou gitlab
+git push origin rafa-changes ou BS-3 exemplo tasks    :mandar arquivos do git repositorio local para o servidor repositorio remoto ou seja para o github ou gitlab
 
 > merge > não mandar na 
 --------fazendo pull para notebook diretamente forma pratica----------------------------------
