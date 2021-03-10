@@ -12,26 +12,51 @@ yarn --version    : ver a versão do yarn
 yarn : baixa as dependencias do projeto com yarn
 yarn serve   : para subir o projeto para uso
 
----------fazendo pull no projeto ou atualizando projeto de novo no notebook----------
+---------fazendo pull no projeto ou atualizando projeto de novo no notebook como develop----------
 git status  : mostra q esta na ultima bransh feita
 git checkout develop   : troca de branch tava na branch master ou task(gitlab) e vai para develop de desenvolvimento para pull ser feito
 git pull    :puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
----
+--------fazendo pull para notebook diretamente forma pratica----------------------------------
 git pull origin develop:ja no develop puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
 
 
---------fazendo commit e push no projeto ou entregando o que foi mudado p github ou gitlab-------------------
-git checkout -b "rafa-changes ou nome da task BS-3"   : cria uma branch de trabalho git nova para fazer commit
-git checkout BS-368   :  troca de branch apenas pois ja existe foi criada git checkout -b "BS-368",  se estiver em develops para BS-368 e 
+---------fazendo pull no projeto ou atualizando projeto de uma branch aleatoria q ja exista para meu computador os dados----------
+git status   : conferir se esta na em qual task On branch
+git checkout develop   : troca de branch tava na branch master ou task(gitlab) e vai para develop de desenvolvimento para pull ser feito
+git fetch origin    :mostra todos os commit push feature feitos de outros devs 
+git checkout feature/BS-3   :  troca de branch apenas pois ja existe foi criada git checkout -b "BS-368",  se estiver em develops para BS-368 e 
+git status   : conferir se esta na task BS-3 e não na develop, On branch feita com checkout anterior
+git pull origin feature/nomeTaskBS-3    : fazendo assim o pull pegando projetos da branch
+ls    : apenas conferir os arquivos
+
+--------fazendo commit e push no projeto ou entregando o que foi mudado p github ou gitlab,branch ja criada-------------------
+git status   : conferir se esta na em qual task On branch
+git checkout develop   : troca de branch tava na branch master ou task(gitlab) e vai para develop de desenvolvimento para pull ser feito
+git fetch origin    :mostra todos os commit push feature feitos de outros devs 
+git checkout feature/BS-3   :  troca de branch apenas pois ja existe foi criada git checkout -b "BS-368",  se estiver em develops para BS-368 e 
 git status   : conferir se esta na task BS-3 e não na develop, On branch feita com checkout anterior
 git add .    : adicinar ao index ou git status preparando p/ github, preparando todos os arquivos para um commit
 git status   : conferir se esta na task On branch
 git commit -m "exemplo adaptando graficos para dark theme"    :faz commit adicionar com numero e revisão vista por todos com texto do que foi modificado.
-git push origin rafa-changes ou BS-3 exemplo tasks    :mandar arquivos do git repositorio local para o servidor repositorio remoto ou seja para o github ou gitlab
+git push origin feature/nomeTaskBS-3    :mandar arquivos do git repositorio local para o servidor repositorio remoto ou seja para o github ou gitlab
 
-> merge > não mandar na 
---------fazendo pull para notebook diretamente forma pratica----------------------------------
-git pull origin develop:ja no develop puxar arquivos do servidor github repositorio remoto q outros devs incluiram, para o git notebook repos. local
+> merge no gitlab > assinatura do responsavel > comparar codigo > não mandar na master e sim na develop >
+
+--------fazendo commit e push no projeto ou entregando o que foi mudado p github ou gitlab, criando branch pega no jira-------------------
+git status   : conferir se esta na em qual task On branch
+git checkout -b "feature/nomeTaskBS-3"   : cria uma branch de trabalho git nova para fazer commit, com nome da task passada no jira se não tiver branch ainda
+git status   : conferir se esta na task BS-3 e não na develop, On branch feita com checkout anterior
+git add .    : adicinar ao index ou git status preparando p/ github, preparando todos os arquivos para um commit
+git status   : conferir se esta na task On branch
+git commit -m "exemplo adaptando graficos para dark theme"    :faz commit adicionar com numero e revisão vista por todos com texto do que foi modificado.
+git push origin feature/nomeTaskBS-3    :mandar arquivos do git repositorio local para o servidor repositorio remoto ou seja para o github ou gitlab
+
+
+
+
+
+
+
 
 ---------fazendo pull no projeto com erro anterior----------
 git stash: volta a branch anterior na pasta do projeto ultima commit da branch se errou algo
